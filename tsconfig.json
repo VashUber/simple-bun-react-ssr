@@ -9,7 +9,7 @@
     "target": "esnext",
 
     // if TS 5.x+
-    "moduleResolution": "bundler",
+    "moduleResolution": "Bundler",
     "noEmit": true,
     "allowImportingTsExtensions": true,
     "moduleDetection": "force",
