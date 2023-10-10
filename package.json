@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun --hot run ./index.tsx | bun builder.bun.ts"
+    "dev": "bun --hot run ./index.tsx | bunx --bun vite build"
   },
   "devDependencies": {
     "@types/react": "^18.2.21",
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite": "^4.4.11"
   }
 }
